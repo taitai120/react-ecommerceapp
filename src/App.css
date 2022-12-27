@@ -6,10 +6,11 @@ html, body {
 
 :root {
   --color-header-top-background: #131921;
-  --color-header-border-bottom: #3b4149;
+  --color-border-bottom: #3b4149;
   --color-header-search-icon: #febd69;
   --color-header-bottom-background: #232f3e;
   --color-footer-background: #232f3e;
+  --color-footer-border: rgba(255, 255, 255, 0.1);
 }
 
 a {

@@ -1,6 +1,6 @@
 .header-top-strip {
     background: var(--color-header-top-background);
-    border-bottom: 1px solid var(--color-header-border-bottom);
+    border-bottom: 1px solid var(--color-border-bottom);
 }
 
 .header-upper {
@@ -33,7 +33,7 @@
             .dropdown-item {
                 padding: 20px;
                 margin-bottom: 3px;                
-                border-bottom: 1px solid var(--color-header-border-bottom);
+                border-bottom: 1px solid var(--color-border-bottom);
 
                 &:hover {
                     background: transparent;
