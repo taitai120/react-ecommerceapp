@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+html, body {
+  font-family: 'Rubik', sans-serif;
+}
+
+:root {
+  --color-header-top-background: #131921;
+  --color-header-border-bottom: #3b4149;
+  --color-header-search-icon: #febd69;
+  --color-header-bottom-background: #232f3e;
+  --color-footer-background: #232f3e;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-15 {
+  gap: 15px;
+}
+
+.gap-30 {
+  gap: 30px;
+}
