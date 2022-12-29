@@ -1,0 +1,82 @@
+.home-wrapper-1 {
+    .main-banner {
+        .main-banner-content {
+            top: 15%;
+            left: 5%;
+
+            h4 {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                color: var(--color-homepage-main-banner-h4);
+                margin: 0 0 12px;
+                letter-spacing: 0.3px;
+                text-transform: uppercase;
+            }
+
+            h5 {
+                font-size: 52px;
+                line-height: 64px;
+                letter-spacing: -2px;
+                font-weight: 500;
+                text-transform: none;
+            }
+
+            p {
+                font-size: 18px;
+                line-height: 28px;
+                letter-spacing: 0.4px;
+                color: var(--color-header-top-background);
+            }
+
+            .btn-buynow {
+                background: var(--color-header-bottom-background);
+                color: white;
+                font-size: 14px;
+                padding: 13px 33px;
+                border-radius: 28px;
+                transition: 0.3s ease;
+
+                &:hover {
+                    background: var(--color-header-search-icon);
+                    color: var(--color-header-top-background);
+                }
+            }
+        }
+    }
+
+    .small-banner {
+        width: 49%;
+
+        .small-banner-content {
+            top: 25%;
+            left: 10%;
+            padding-right: 40%;
+
+            h4 {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24px;
+                color: var(--color-homepage-main-banner-h4);
+                margin: 0 0 12px;
+                letter-spacing: 0.3px;
+                text-transform: uppercase;
+            }
+
+            h5 {
+                font-size: 22px;
+                line-height: 34px;
+                letter-spacing: -2px;
+                font-weight: 500;
+                text-transform: none;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 22px;
+                letter-spacing: 0.4px;
+                color: var(--color-header-top-background);
+            }
+        }
+    }
+}

@@ -4,4 +4,10 @@ footer {
     &:not(:first-child) {
         border-top: 1px solid var(--color-footer-border);
     }
+
+    .input-group-text {
+        background: var(--color-footer-input-text);
+        color: white;
+        padding: 8px 17px;
+    }
 }
