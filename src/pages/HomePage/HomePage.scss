@@ -80,3 +80,24 @@
         }
     }
 }
+
+.home-wrapper-2 {
+    background :var(--color-homepage-service-background);
+
+    .services {
+        p {
+            font-size: 13px;
+            color: gray;
+        }
+    }
+
+    .categories {
+        background: white;
+        box-shadow: 0 0 10px #0000001a;
+        padding: 15px;
+
+        & > div {
+            width: 24%;
+        }
+    }
+}
