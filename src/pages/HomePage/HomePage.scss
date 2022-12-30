@@ -8,7 +8,7 @@
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 24px;
-                color: var(--color-homepage-main-banner-h4);
+                color: var(--color-orange-1);
                 margin: 0 0 12px;
                 letter-spacing: 0.3px;
                 text-transform: uppercase;
@@ -26,21 +26,7 @@
                 font-size: 18px;
                 line-height: 28px;
                 letter-spacing: 0.4px;
-                color: var(--color-header-top-background);
-            }
-
-            .btn-buynow {
-                background: var(--color-header-bottom-background);
-                color: white;
-                font-size: 14px;
-                padding: 13px 33px;
-                border-radius: 28px;
-                transition: 0.3s ease;
-
-                &:hover {
-                    background: var(--color-header-search-icon);
-                    color: var(--color-header-top-background);
-                }
+                color: var(--color-black-1);
             }
         }
     }
@@ -57,7 +43,7 @@
                 font-size: 14px;
                 font-weight: 400;
                 line-height: 24px;
-                color: var(--color-homepage-main-banner-h4);
+                color: var(--color-orange-1);
                 margin: 0 0 12px;
                 letter-spacing: 0.3px;
                 text-transform: uppercase;
@@ -75,14 +61,14 @@
                 font-size: 14px;
                 line-height: 22px;
                 letter-spacing: 0.4px;
-                color: var(--color-header-top-background);
+                color: var(--color-black-1);
             }
         }
     }
 }
 
 .home-wrapper-2 {
-    background :var(--color-homepage-service-background);
+    background: var(--color-silver-1);
 
     .services {
         p {
@@ -97,7 +83,48 @@
         padding: 15px;
 
         & > div {
-            width: 24%;
+            width: 25%;
+            padding: 10px 10px 10px 20px;
+            height: 200px;
+
+            img {
+                width: 80%;
+                height: 80%;
+            }
+        }
+
+        & > div > div {
+            width: 60%;
+        }
+
+        & > div:nth-child(1),
+        & > div:nth-child(2),
+        & > div:nth-child(3),
+        & > div:nth-child(4) {
+            border-bottom: 1px solid var(--color-silver-2);
+        }
+
+        & > div:nth-child(1),
+        & > div:nth-child(2),
+        & > div:nth-child(3),
+        & > div:nth-child(5),
+        & > div:nth-child(6),
+        & > div:nth-child(7) {
+            border-right: 1px solid var(--color-silver-2);
         }
     }
+}
+
+.marquee-wrapper {
+    .marquee-inner-wrapper {
+        background: white;
+        box-shadow: 0 0 10px #0000001a;
+        padding: 15px;
+    }
+}
+
+.section-heading {
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 500;
 }

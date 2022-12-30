@@ -5,15 +5,16 @@ html, body {
 }
 
 :root {
-  --color-header-top-background: #131921;
-  --color-border-bottom: #3b4149;
-  --color-header-search-icon: #febd69;
-  --color-header-bottom-background: #232f3e;
-  --color-footer-background: #232f3e;
-  --color-footer-border: rgba(255, 255, 255, 0.1);
-  --color-footer-input-text: #232f3e;
-  --color-homepage-main-banner-h4: #bf4800;
-  --color-homepage-service-background: #f5f5f7;
+  --color-black-1: #131921;
+  --color-black-2: #1c1c1b;
+  --color-gray-1: #3b4149;
+  --color-gray-2: rgba(255, 255, 255, 0.1);
+  --color-gray-3: #777777;
+  --color-dark-blue-1: #232f3e;
+  --color-yellow-1: #febd69;
+  --color-orange-1: #bf4800;
+  --color-silver-1: #f5f5f7;
+  --color-silver-2: #ededed;
 }
 
 ul, li {
@@ -41,4 +42,19 @@ a {
 
 .gap-30 {
   gap: 30px;
+}
+
+/* Sharing CSS */
+.btn-buynow {
+  background: var(--color-dark-blue-1);
+  color: white;
+  font-size: 14px;
+  padding: 13px 33px;
+  border-radius: 28px;
+  transition: 0.3s ease;
+}
+
+.btn-buynow:hover {
+  background: var(--color-yellow-1);
+  color: var(--color-black-1);
 }

@@ -1,0 +1,17 @@
+.product-card {
+    background: white;
+    border-radius: 6px;
+    padding: 10px;
+
+    .product-details {
+        h6 {
+            color: var(--color-orange-1);
+            fs: 13px;
+        }
+
+        h5 {
+            font-size: 15px;
+            color: var(--color-black-2);
+        }
+    }
+}

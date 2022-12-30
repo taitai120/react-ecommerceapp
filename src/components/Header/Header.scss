@@ -1,13 +1,13 @@
 .header-top-strip {
-    background: var(--color-header-top-background);
-    border-bottom: 1px solid var(--color-border-bottom);
+    background: var(--color-black-1);
+    border-bottom: 1px solid var(--color-gray-1);
 }
 
 .header-upper {
-    background: var(--color-header-top-background);
+    background: var(--color-black-1);
 
     .input-group-text {
-        background: var(--color-header-search-icon);
+        background: var(--color-yellow-1);
     }
 
     .header-upper-links img {
@@ -17,7 +17,7 @@
 }
 
 .header-bottom {
-    background: var(--color-header-bottom-background);
+    background: var(--color-dark-blue-1);
 
     .dropdown {
         button:focus {
@@ -25,25 +25,26 @@
         }
 
         .dropdown-menu {
-            background: var(--color-header-top-background);
+            background: var(--color-black-1);
             box-shadow: 1px 1px 1px gray;
             transform: translate3d(0, 57px, 0) !important;
             width: 100%;
 
             .dropdown-item {
                 padding: 20px;
-                margin-bottom: 3px;                
-                border-bottom: 1px solid var(--color-border-bottom);
+                margin-bottom: 3px;
+                border-bottom: 1px solid var(--color-gray-1);
 
                 &:hover {
                     background: transparent;
-                    color: var(--color-header-search-icon);
+                    color: var(--color-yellow-1);
                 }
             }
         }
     }
 
-    .dropdown button, .menu-links a {
+    .dropdown button,
+    .menu-links a {
         color: white;
         font-size: 14px;
         line-height: 18px;
