@@ -5,6 +5,8 @@ import Marquee from "react-fast-marquee";
 import BlogCard from "../../components/BlogList/BlogCard/BlogCard";
 import ProductList from "../../components/ProductList/ProductList";
 import BlogList from "../../components/BlogList/BlogList";
+import SpecialProductList from "../../components/SpecialProductList/SpecialProductList";
+import FamousList from "../../components/FamousList/FamousList";
 
 const HomePage = () => {
     return (
@@ -89,7 +91,7 @@ const HomePage = () => {
                 </div>
             </section>
             <section className="home-wrapper-2 py-5">
-                <div className="container-xxl py-5">
+                <div className="container-xxl">
                     <div className="row">
                         <div className="col-12">
                             <div className="services d-flex align-items-center justify-content-between">
@@ -157,7 +159,7 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="container-xxl py-5">
+                <div className="container-xxl">
                     <div className="row">
                         <div className="col-12">
                             <div className="categories d-flex justify-content-between align-items-center flex-wrap">
@@ -227,7 +229,54 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="container-xxl py-5">
+            </section>
+            <section className="home-wrapper-2 py-5 special-wrapper">
+                <div className="container-xxl">
+                    <div className="row">
+                        <div className="col-12">
+                            <h3 className="section-heading">
+                                Special Products
+                            </h3>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <SpecialProductList />
+                    </div>
+                </div>
+            </section>
+            <section className="home-wrapper-2 py-5 featured-wrapper">
+                <div className="container-xxl">
+                    <div className="row">
+                        <div className="col-12">
+                            <h3 className="section-heading">
+                                Featured Collection
+                            </h3>
+                        </div>
+                        <ProductList />
+                    </div>
+                </div>
+            </section>
+            <section className="home-wrapper py-5 famous-wrapper">
+                <div className="container-xxl">
+                    <div className="row">
+                        <FamousList />
+                    </div>
+                </div>
+            </section>
+            <section className="home-wrapper-2 py-5 popular-wrapper">
+                <div className="container-xxl">
+                    <div className="row">
+                        <div className="col-12">
+                            <h3 className="section-heading">
+                                Our Popular Products
+                            </h3>
+                        </div>
+                        <ProductList />
+                    </div>
+                </div>
+            </section>
+            <section className="home-wrapper-2 py-5 marque-wrapper">
+                <div className="container-xxl">
                     <div className="row">
                         <div className="col-12">
                             <div className="marquee-inner-wrapper card-wrapper">
@@ -285,17 +334,9 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="container-xxl py-5">
-                    <div className="row">
-                        <div className="col-12">
-                            <h3 className="section-heading">
-                                Our Lastest Blogs
-                            </h3>
-                        </div>
-                        <ProductList />
-                    </div>
-                </div>
-                <div className="container-xxl py-5">
+            </section>
+            <section className="home-wrapper-2 py-5 blog-wrapper">
+                <div className="container-xxl">
                     <div className="row">
                         <div className="col-12">
                             <h3 className="section-heading">
