@@ -1,5 +1,49 @@
 .filter-card {
     background: white;
     border-radius: 10px;
-    padding: 10px 15px;
+    padding: 10px 15px 25px;
+
+    .filter-title {
+        font-size: 16px;
+        line-height: 20px;
+        color: var(--color-black-2);
+        margin-bottom: 20px;
+    }
+
+    ul,
+    .form-check .form-check-label {
+        font-size: 13px;
+        line-height: 30px;
+        color: var(--color-gray-3);
+        cursor: pointer;
+    }
+
+    .form-check {
+        .form-check-input {
+            &:checked {
+                background: var(--color-yellow-1);
+                border-color: var(--color-yellow-1);
+            }
+
+            &:focus {
+                box-shadow: none;
+                border-color: rgba(0, 0, 0, 0.25);
+            }
+        }
+    }
+
+    .sub-title {
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--color-gray-3);
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+
+    .colors li {
+        width: 20px;
+        height: 20px;
+        background: red;
+        border-radius: 50%;
+    }
 }
