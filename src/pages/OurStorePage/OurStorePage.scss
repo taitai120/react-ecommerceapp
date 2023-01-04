@@ -1,7 +1,7 @@
 .filter-card {
     background: white;
     border-radius: 10px;
-    padding: 10px 15px 25px;
+    padding: 15px 15px 25px;
 
     .filter-title {
         font-size: 16px;
@@ -45,5 +45,36 @@
         height: 20px;
         background: red;
         border-radius: 50%;
+    }
+
+    .random-products {
+        h5 {
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+
+        &:first-child {
+            border-bottom: 1px solid var(--color-silver-2);
+        }
+    }
+}
+
+.filter-sort-grid {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+
+    p.sortby {
+        width: 100px;
+    }
+
+    .grid {
+        img {
+            width: 35px;
+            height: 35px;
+            border-radius: 8px;
+            background: var(--color-silver-3);
+            padding: 8px;
+        }
     }
 }

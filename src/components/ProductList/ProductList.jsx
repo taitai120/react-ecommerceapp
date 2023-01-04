@@ -2,10 +2,11 @@ import React from "react";
 import ProductCard from "./ProductCard/ProductCard";
 import "./ProductList.scss";
 
-const ProductList = () => {
+const ProductList = ({ grid }) => {
     return (
         <>
             <ProductCard
+                grid={grid}
                 isLiked
                 mainImg="images/tab1.jpg"
                 subImg="images/tab3.jpg"
@@ -15,6 +16,7 @@ const ProductList = () => {
                 rating={4}
             />
             <ProductCard
+                grid={grid}
                 isLiked
                 mainImg="images/tab1.jpg"
                 subImg="images/tab3.jpg"
@@ -24,6 +26,7 @@ const ProductList = () => {
                 rating={5}
             />
             <ProductCard
+                grid={grid}
                 isLiked
                 mainImg="images/tab1.jpg"
                 subImg="images/tab3.jpg"
@@ -33,6 +36,7 @@ const ProductList = () => {
                 rating={5}
             />
             <ProductCard
+                grid={grid}
                 isLiked
                 mainImg="images/tab1.jpg"
                 subImg="images/tab3.jpg"
