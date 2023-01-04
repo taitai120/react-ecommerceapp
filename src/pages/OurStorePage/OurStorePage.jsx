@@ -63,7 +63,7 @@ const OurStorePage = () => {
                                 </div>
                                 <h5 className="sub-title">Price</h5>
                                 <div className="d-flex align-items-center gap-10">
-                                    <div className="form-floating mb-3">
+                                    <div className="form-floating">
                                         <input
                                             type="text"
                                             className="form-control"
@@ -74,7 +74,7 @@ const OurStorePage = () => {
                                             From
                                         </label>
                                     </div>
-                                    <div className="form-floating mb-3">
+                                    <div className="form-floating">
                                         <input
                                             type="text"
                                             className="form-control"
@@ -141,6 +141,22 @@ const OurStorePage = () => {
                             </div>
                             <div className="filter-card mb-3">
                                 <h3 className="filter-title">Product Tags</h3>
+                                <div>
+                                    <div className="product-tags d-flex flex-wrap align-items-center">
+                                        <span className="badge bg-light text-secondary rounded-3 py-2 px-3">
+                                            Headphone
+                                        </span>
+                                        <span className="badge bg-light text-secondary rounded-3 py-2 px-3">
+                                            Lpatop
+                                        </span>
+                                        <span className="badge bg-light text-secondary rounded-3 py-2 px-3">
+                                            Mobile
+                                        </span>
+                                        <span className="badge bg-light text-secondary rounded-3 py-2 px-3">
+                                            Wires
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
                             <div className="filter-card mb-3">
                                 <h3 className="filter-title">Random Product</h3>
