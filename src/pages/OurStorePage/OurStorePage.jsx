@@ -153,7 +153,7 @@ const OurStorePage = () => {
                                             Mobile
                                         </span>
                                         <span className="badge bg-light text-secondary rounded-3 py-2 px-3">
-                                            Wires
+                                            Wire
                                         </span>
                                     </div>
                                 </div>
