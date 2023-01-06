@@ -24,10 +24,10 @@ const ProductCard = ({
     return (
         <div
             className={`${
-                location.pathname === "/store" ? `col-${grid}` : "col-3"
+                location.pathname === "/store" ? `gr-${grid}` : "col-3"
             }`}
         >
-            <Link className="product-card position-relative randomProduct d-block">
+            <Link className="product-card position-relative randomProduct">
                 {!isRandom && (
                     <div className="wishlist-icon position-absolute">
                         <img src="images/wish.svg" alt="wishlist" />
@@ -52,6 +52,16 @@ const ProductCard = ({
                             edit={true}
                         />
                     ) : null}
+                    <p
+                        className={`description ${
+                            grid === 12 ? "d-block" : "d-none"
+                        }`}
+                    >
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Et, delectus. Eum recusandae alias vel! Possimus,
+                        ea consequuntur. Quis, quia alias fuga aliquam error,
+                        iusto labore, qui doloribus itaque quasi eligendi!
+                    </p>
                     <p className="price">${price}</p>
                 </div>
                 {!isRandom && (

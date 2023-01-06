@@ -343,7 +343,9 @@ const HomePage = () => {
                                 Our Lastest Blogs
                             </h3>
                         </div>
-                        <BlogList />
+                        <div className="row">
+                            <BlogList />
+                        </div>
                     </div>
                 </div>
             </section>

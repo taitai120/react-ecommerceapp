@@ -315,7 +315,7 @@ const OurStorePage = () => {
                                 </div>
                             </div>
                             <div className="products-list py-5">
-                                <div className="row">
+                                <div className="d-flex gap-10 flex-wrap">
                                     <ProductList grid={grid} />
                                 </div>
                             </div>
