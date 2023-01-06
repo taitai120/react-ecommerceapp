@@ -18,9 +18,9 @@ function App() {
                         <Route index element={<HomePage />} />
                         <Route path="/login" element={<LoginPage />} />
                         <Route path="/about" element={<AboutPage />} />
-                        <Route path="/contact" element={<ContactPage />} />
                         <Route path="/store" element={<OurStorePage />} />
                         <Route path="/blogs" element={<BlogPage />} />
+                        <Route path="/contact" element={<ContactPage />} />
                     </Route>
                 </Routes>
             </BrowserRouter>
