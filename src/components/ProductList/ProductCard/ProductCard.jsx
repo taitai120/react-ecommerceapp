@@ -5,6 +5,7 @@ import { Link, useLocation } from "react-router-dom";
 
 const ProductCard = ({
     grid,
+    id,
     isRandom,
     isLiked,
     mainImg,
@@ -27,7 +28,10 @@ const ProductCard = ({
                 location.pathname === "/store" ? `gr-${grid}` : "col-3"
             }`}
         >
-            <Link className="product-card position-relative randomProduct">
+            <Link
+                to={`/products/${id}`}
+                className="product-card position-relative randomProduct"
+            >
                 {!isRandom && (
                     <div className="wishlist-icon position-absolute">
                         <img src="images/wish.svg" alt="wishlist" />

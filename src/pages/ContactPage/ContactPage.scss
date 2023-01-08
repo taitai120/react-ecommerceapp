@@ -5,7 +5,7 @@
         background: white;
         gap: 15px;
 
-        &: > div {
+        > div {
             width: 48%;
         }
 
@@ -18,6 +18,13 @@
 
         form .form-control {
             background: var(--color-silver-1);
+            border-radius: 10px;
+            border-color: transparent;
+            padding: 10px;
+        }
+
+        address, a, p {
+            color: var(--color-gray-3);
         }
     }
 }

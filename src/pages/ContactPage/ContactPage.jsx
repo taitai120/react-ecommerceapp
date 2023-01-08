@@ -2,6 +2,8 @@ import React from "react";
 import "./ContactPage.scss";
 import Meta from "../../components/Meta/Meta";
 import Breadcrumb from "../../components/Breadcrumb/Breadcrumb";
+import { AiOutlineHome, AiOutlineMail } from "react-icons/ai";
+import { BiInfoCircle, BiPhoneCall } from "react-icons/bi";
 
 const Contact = () => {
     return (
@@ -30,7 +32,7 @@ const Contact = () => {
                                     </h3>
                                     <form
                                         action=""
-                                        className="d-flex flex-column gap-15 w-100"
+                                        className="d-flex flex-column gap-15"
                                     >
                                         <div>
                                             <input
@@ -74,6 +76,35 @@ const Contact = () => {
                                     <h3 className="contact-title mb-4">
                                         Get in touch with us
                                     </h3>
+                                    <div>
+                                        <ul className="ps-0">
+                                            <li className="mb-3 d-flex gap-15 align-items-center">
+                                                <AiOutlineHome className="fs-5" />
+                                                <address className="mb-0">
+                                                    157A/26 Duong Ba Trac, P1
+                                                    Q8, TPHCM
+                                                </address>
+                                            </li>
+                                            <li className="mb-3 d-flex gap-15 align-items-center">
+                                                <BiPhoneCall className="fs-5" />
+                                                <a href="tel:+084 789989959">
+                                                    0789 989 959
+                                                </a>
+                                            </li>
+                                            <li className="mb-3 d-flex gap-15 align-items-center">
+                                                <AiOutlineMail className="fs-5" />
+                                                <a href="mailto:phantuantai7293@gmail.com">
+                                                    phantuantai7293@gmail
+                                                </a>
+                                            </li>
+                                            <li className="mb-3 d-flex gap-15 align-items-center">
+                                                <BiInfoCircle className="fs-5" />
+                                                <p className="mb-0">
+                                                    {new Date().toISOString()}
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>

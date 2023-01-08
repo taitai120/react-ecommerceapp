@@ -77,19 +77,34 @@ const Footer = () => {
                         <div className="col-3">
                             <h4 className="text-white mb-4">Information</h4>
                             <div className="footer-links d-flex flex-column">
-                                <Link className="text-white py-2 pt-0 mb-1">
+                                <Link
+                                    to="/privacy-policy"
+                                    className="text-white py-2 pt-0 mb-1"
+                                >
                                     Privacy Policy
                                 </Link>
-                                <Link className="text-white py-2 mb-1">
+                                <Link
+                                    to="/refund-policy"
+                                    className="text-white py-2 mb-1"
+                                >
                                     Refund Policy
                                 </Link>
-                                <Link className="text-white py-2 mb-1">
+                                <Link
+                                    to="/shipping-policy"
+                                    className="text-white py-2 mb-1"
+                                >
                                     Shipping Policy
                                 </Link>
-                                <Link className="text-white py-2 mb-1">
+                                <Link
+                                    to="/term-conditions"
+                                    className="text-white py-2 mb-1"
+                                >
                                     Terms of Service
                                 </Link>
-                                <Link className="text-white py-2 mb-1">
+                                <Link
+                                    to="/blogs"
+                                    className="text-white py-2 mb-1"
+                                >
                                     Blogs
                                 </Link>
                             </div>

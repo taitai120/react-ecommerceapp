@@ -4,6 +4,7 @@ import Meta from "../../components/Meta/Meta";
 import "./OurStorePage.scss";
 import ReactStarts from "react-rating-stars-component";
 import ProductList from "../../components/ProductList/ProductList";
+import Colors from "../../components/Colors/Colors";
 
 const OurStorePage = () => {
     const [grid, setGrid] = useState(4);
@@ -99,21 +100,7 @@ const OurStorePage = () => {
                                 </div>
                                 <h5 className="sub-title">Colors</h5>
                                 <div>
-                                    <div className="d-flex flex-wrap">
-                                        <ul className="colors ps-0 d-flex flex-wrap gap-10">
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                        </ul>
-                                    </div>
+                                    <Colors />
                                 </div>
                                 <h5 className="sub-title">Size</h5>
                                 <div>

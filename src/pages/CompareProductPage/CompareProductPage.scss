@@ -1,0 +1,28 @@
+.compare-product {
+    .compare-product-card {
+        padding: 20px 15px;
+        background: white;
+        border-radius: 10px;
+
+        .cross {
+            width:25px;
+            right: 15px;
+            top: 15px;
+            cursor: pointer;
+        }
+
+        h6.price {
+            font-size: 15px;
+            line-height: 22px;
+            font-weight: 400;
+        }
+
+        .product-detail {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+        }
+    }
+}

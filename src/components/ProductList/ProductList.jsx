@@ -8,6 +8,7 @@ const ProductList = ({ grid }) => {
             <ProductCard
                 grid={grid}
                 isLiked
+                id={1}
                 mainImg="images/tab1.jpg"
                 subImg="images/tab3.jpg"
                 brand="Havells"
@@ -18,6 +19,7 @@ const ProductList = ({ grid }) => {
             <ProductCard
                 grid={grid}
                 isLiked
+                id={2}
                 mainImg="images/tab1.jpg"
                 subImg="images/tab3.jpg"
                 brand="Sony"
@@ -28,6 +30,7 @@ const ProductList = ({ grid }) => {
             <ProductCard
                 grid={grid}
                 isLiked
+                id={3}
                 mainImg="images/tab1.jpg"
                 subImg="images/tab3.jpg"
                 brand="Havells"
@@ -38,6 +41,7 @@ const ProductList = ({ grid }) => {
             <ProductCard
                 grid={grid}
                 isLiked
+                id={4}
                 mainImg="images/tab1.jpg"
                 subImg="images/tab3.jpg"
                 brand="Bajaj"
