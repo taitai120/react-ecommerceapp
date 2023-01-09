@@ -1,0 +1,36 @@
+.cart-wrapper {
+    .cart-header {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+        div:nth-child(1) {
+            flex: 1;
+        }
+        div:nth-child(2) {
+            flex: 0.3;
+        }
+        div:nth-child(3) {
+            flex: 0.3;
+        }
+        div:nth-child(4) {
+            flex: 0.3;
+        }
+    }
+
+    .cart-body {
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+        div:nth-child(1) {
+            flex: 1;
+        }
+        div:nth-child(2) {
+            flex: 0.3;
+        }
+        div:nth-child(3) {
+            flex: 0.3;
+        }
+        div:nth-child(4) {
+            flex: 0.3;
+        }
+    }
+}
