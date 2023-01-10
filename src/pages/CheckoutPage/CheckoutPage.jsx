@@ -3,6 +3,8 @@ import "./CheckoutPage.scss";
 import Meta from "../../components/Meta/Meta";
 import Breadcrumb from "../../components/Breadcrumb/Breadcrumb";
 import { Link } from "react-router-dom";
+import { BiArrowBack } from "react-icons/bi";
+import headphone from "../../images/headphone.jpg";
 
 const CheckoutPage = () => {
     return (
@@ -21,22 +23,43 @@ const CheckoutPage = () => {
                                 >
                                     <ol className="breadcrumb">
                                         <li className="breadcrumb-item">
-                                            <a href="#">Home</a>
+                                            <Link
+                                                to="/cart"
+                                                className="text-dark total-price"
+                                            >
+                                                Cart
+                                            </Link>
                                         </li>
                                         &nbsp; /
                                         <li
-                                            className="breadcrumb-item active"
+                                            className="breadcrumb-item total-price active"
                                             aria-current="page"
                                         >
-                                            Library
+                                            Information
+                                        </li>
+                                        &nbsp; /
+                                        <li
+                                            className="breadcrumb-item total-price active"
+                                            aria-current="page"
+                                        >
+                                            Shipping
+                                        </li>
+                                        &nbsp; /
+                                        <li
+                                            className="breadcrumb-item total-price active"
+                                            aria-current="page"
+                                        >
+                                            Payment
                                         </li>
                                     </ol>
                                 </nav>
-                                <h4 className="title">Contact Information</h4>
-                                <p className="user-details">
+                                <h4 className="title total">
+                                    Contact Information
+                                </h4>
+                                <p className="user-details total">
                                     TaiTai (phantuantai7293@gmail.com)
                                 </p>
-                                <h4 className="title">Shipping address</h4>
+                                <h4 className="title mb-3">Shipping address</h4>
                                 <form
                                     action=""
                                     className="d-flex justify-content-between flex-wrap gap-15"
@@ -124,15 +147,73 @@ const CheckoutPage = () => {
                                         </select>
                                     </div>
                                     <div className="w-100">
-                                        <div className="d-flex">
-                                            <Link></Link>
+                                        <div className="d-flex justify-content-between align-items-center">
+                                            <Link
+                                                to="/cart"
+                                                className="text-dark"
+                                            >
+                                                <BiArrowBack className="me-2" />{" "}
+                                                Return to Cart
+                                            </Link>
+                                            <Link
+                                                to="/store"
+                                                className="btn-buynow"
+                                            >
+                                                Continue to Shopping
+                                            </Link>
                                         </div>
                                     </div>
                                 </form>
                             </div>
                         </div>
                         <div className="col-5">
-                            <h1>dasds</h1>
+                            <div className="border-bottom py-4">
+                                <div className="d-flex align-items-center">
+                                    <div className="w-75 d-flex align-items-center gap-10">
+                                        <div className="position-relative">
+                                            <span
+                                                style={{
+                                                    top: "-10px",
+                                                    right: "-10px",
+                                                    fontSize: "14px",
+                                                }}
+                                                className="badge bg-secondary text-white rounded-circle position-absolute"
+                                            >
+                                                1
+                                            </span>
+                                            <img
+                                                src={headphone}
+                                                className="img-fluid"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div>
+                                            <h5 className="total">
+                                                Kids Headphone bulk 10 pack
+                                                multi colored
+                                            </h5>
+                                            <p className="total">S / #ABC</p>
+                                        </div>
+                                    </div>
+                                    <div className="flex-grow-1">
+                                        <h5 className="total">$100</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="border-bottom py-4">
+                                <div className="d-flex justify-content-between align-items-center">
+                                    <p className="total">Subtotal</p>
+                                    <p className="total-price">$ 1000</p>
+                                </div>
+                                <div className="d-flex justify-content-between align-items-center">
+                                    <p className="total">Shipping</p>
+                                    <p className="total-price">$ 1000</p>
+                                </div>
+                            </div>
+                            <div className="d-flex justify-content-between align-items-center py-4">
+                                <h4 className="total">Total</h4>
+                                <h5 className="total-price">$ 1000</h5>
+                            </div>
                         </div>
                     </div>
                 </div>

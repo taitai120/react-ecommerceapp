@@ -75,15 +75,15 @@ const ProductCard = ({
                 {!isRandom && (
                     <div className="action-bar position-absolute">
                         <div className="d-flex flex-column">
-                            <Link>
+                            <button>
                                 <img src={prodcompare} alt="compare" />
-                            </Link>
-                            <Link>
+                            </button>
+                            <button>
                                 <img src={view} alt="view" />
-                            </Link>
-                            <Link>
+                            </button>
+                            <button>
                                 <img src={addcart} alt="addcart" />
-                            </Link>
+                            </button>
                         </div>
                     </div>
                 )}
