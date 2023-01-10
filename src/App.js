@@ -20,6 +20,7 @@ import ShippingPolicyPage from "./pages/ShippingPolicyPage/ShippingPolicyPage";
 import TermAndConditionsPage from "./pages/TermAndConditionsPage/TermAndConditionsPage";
 import ProductDetailPage from "./pages/OurStorePage/ProductDetailPage/ProductDetailPage";
 import CartPage from "./pages/CartPage/CartPage";
+import CheckoutPage from "./pages/CheckoutPage/CheckoutPage";
 
 function App() {
     return (
@@ -69,6 +70,7 @@ function App() {
                             element={<TermAndConditionsPage />}
                         />
                         <Route path="cart" element={<CartPage />} />
+                        <Route path="checkout" element={<CheckoutPage />} />
                     </Route>
                 </Routes>
             </BrowserRouter>
