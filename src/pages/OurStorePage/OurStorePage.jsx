@@ -156,26 +156,6 @@ const OurStorePage = () => {
                         </div>
                         <div className="filter-card mb-3">
                             <h3 className="filter-title">Random Product</h3>
-                            {/* <div className="row">
-                                    <ProductCard
-                                        isRandom
-                                        isLiked
-                                        mainImg="images/tab1.jpg"
-                                        brand="Havells"
-                                        name="Kids Headphones Bulk 10 Pack Multi Colored"
-                                        price="100"
-                                    />
-                                    <ProductCard
-                                        isRandom
-                                        isLiked
-                                        mainImg="images/tab1.jpg"
-                                        subImg="images/tab3.jpg"
-                                        brand="Sony"
-                                        name="Olympus Pen E-PL9 Kit With 14-42, EZ Lens, Camera"
-                                        price="10"
-                                        rating={5}
-                                    />
-                                </div> */}
                             <div>
                                 <div className="random-products d-flex mb-3 d-flex">
                                     <div className="w-50">
@@ -239,9 +219,10 @@ const OurStorePage = () => {
                                         name=""
                                         id=""
                                         className="form-control form-select"
+                                        defaultValue={"manual"}
                                     >
                                         <option value="manual">Featured</option>
-                                        <option value="best-selling" selected>
+                                        <option value="best-selling">
                                             Best Selling
                                         </option>
                                         <option value="title-descending">
