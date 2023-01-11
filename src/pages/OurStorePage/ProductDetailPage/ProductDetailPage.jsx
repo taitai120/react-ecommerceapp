@@ -220,7 +220,6 @@ const ProductDetailPage = () => {
             </Container>
 
             <Container class1="description-wrapper home-wrapper-2 py-5">
-                {" "}
                 <div className="row">
                     <div className="col-12">
                         <h4>Description</h4>
@@ -260,12 +259,12 @@ const ProductDetailPage = () => {
                                 </div>
                                 {orderedProduct && (
                                     <div>
-                                        <a
-                                            href=""
+                                        <Link
+                                            to="/"
                                             className="text-dark text-decoration-underline"
                                         >
                                             Write a Review
-                                        </a>
+                                        </Link>
                                     </div>
                                 )}
                             </div>
