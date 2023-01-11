@@ -3,15 +3,12 @@ import "./BlogDetailPage.scss";
 import { useParams, useLocation } from "react-router-dom";
 import Meta from "../../../components/Meta/Meta";
 import Breadcrumb from "../../../components/Breadcrumb/Breadcrumb";
-import BlogCard from "../../../components/BlogList/BlogCard/BlogCard";
 import { Link } from "react-router-dom";
 import { HiOutlineArrowLeft } from "react-icons/hi";
 import Container from "../../../components/Container/Container";
 
 const BlogDetailPage = () => {
-    const location = useLocation();
     const { id } = useParams();
-    console.log(id);
     return (
         <>
             <Meta title={"Blogs"} />

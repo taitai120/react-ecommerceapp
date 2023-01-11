@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./HomePage.scss";
 import Marquee from "react-fast-marquee";
-import BlogCard from "../../components/BlogList/BlogCard/BlogCard";
 import ProductList from "../../components/ProductList/ProductList";
 import BlogList from "../../components/BlogList/BlogList";
 import SpecialProductList from "../../components/SpecialProductList/SpecialProductList";

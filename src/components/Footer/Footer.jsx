@@ -57,18 +57,18 @@ const Footer = () => {
                                     phantuantai7293@gmail.com
                                 </a>
                                 <div className="social-icons d-flex align-items-center gap-30 mt-4">
-                                    <a href="">
+                                    <Link to="/">
                                         <BsLinkedin className="text-white fs-4" />
-                                    </a>
-                                    <a href="">
+                                    </Link>
+                                    <Link to="/">
                                         <BsInstagram className="text-white fs-4" />
-                                    </a>
-                                    <a href="">
+                                    </Link>
+                                    <Link to="/">
                                         <BsGithub className="text-white fs-4" />
-                                    </a>
-                                    <a href="">
+                                    </Link>
+                                    <Link to="/">
                                         <BsYoutube className="text-white fs-4" />
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -110,19 +110,22 @@ const Footer = () => {
                         <div className="col-3">
                             <h4 className="text-white mb-4">Account</h4>
                             <div className="footer-links d-flex flex-column">
-                                <Link className="text-white py-2 pt-0 mb-1">
+                                <Link
+                                    to="/"
+                                    className="text-white py-2 pt-0 mb-1"
+                                >
                                     Search
                                 </Link>
-                                <Link className="text-white py-2 mb-1">
+                                <Link to="/" className="text-white py-2 mb-1">
                                     About Us
                                 </Link>
-                                <Link className="text-white py-2 mb-1">
+                                <Link to="/" className="text-white py-2 mb-1">
                                     Faq
                                 </Link>
-                                <Link className="text-white py-2 mb-1">
+                                <Link to="/" className="text-white py-2 mb-1">
                                     Contact
                                 </Link>
-                                <Link className="text-white py-2 mb-1">
+                                <Link to="/" className="text-white py-2 mb-1">
                                     Size Chart
                                 </Link>
                             </div>
@@ -130,16 +133,19 @@ const Footer = () => {
                         <div className="col-2">
                             <h4 className="text-white mb-4">Quick Links</h4>
                             <div className="footer-links d-flex flex-column">
-                                <Link className="text-white py-2 pt-0 mb-1">
+                                <Link
+                                    to="/"
+                                    className="text-white py-2 pt-0 mb-1"
+                                >
                                     Laptops
                                 </Link>
-                                <Link className="text-white py-2 mb-1">
+                                <Link to="/" className="text-white py-2 mb-1">
                                     Headphones
                                 </Link>
-                                <Link className="text-white py-2 mb-1">
+                                <Link to="/" className="text-white py-2 mb-1">
                                     Tablets
                                 </Link>
-                                <Link className="text-white py-2 mb-1">
+                                <Link to="/" className="text-white py-2 mb-1">
                                     Watch
                                 </Link>
                             </div>

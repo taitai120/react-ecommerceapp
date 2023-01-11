@@ -26,7 +26,7 @@ const CartPage = () => {
                                 <div className="w-25">
                                     <img
                                         src={headphone}
-                                        alt="product image"
+                                        alt="product"
                                         className="img-fluid"
                                     />
                                 </div>
@@ -64,7 +64,7 @@ const CartPage = () => {
                                 <div className="w-25">
                                     <img
                                         src={headphone}
-                                        alt="product image"
+                                        alt="product"
                                         className="img-fluid"
                                     />
                                 </div>
@@ -102,7 +102,7 @@ const CartPage = () => {
                                 <div className="w-25">
                                     <img
                                         src={headphone}
-                                        alt="product image"
+                                        alt="product"
                                         className="img-fluid"
                                     />
                                 </div>

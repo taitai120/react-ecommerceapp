@@ -23,6 +23,7 @@ const Contact = () => {
                             allowFullScreen
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"
+                            title="map"
                         />
                     </div>
                     <div className="col-12 mt-5">
