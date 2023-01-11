@@ -1,19 +1,3 @@
-.gr-12 {
-    width: 100%
-}
-
-.gr-6 {
-    width: 49%;
-}
-
-.gr-4 {
-    width: 32%;
-}
-
-.gr-3 {
-    width: 24%;
-}
-
 .product-card {
     background: white;
     border-radius: 10px;
@@ -75,14 +59,35 @@
         top: 15%;
         right: -10%;
         transition: 0.3s;
+
+        .btn-action {
+            border: none;
+            background: none;
+            outline: none;
+            cursor: pointer;
+
+            img {
+                transition: 0.2s ease;
+            }
+
+            img:hover {
+                scale: (1.02);
+            }
+        }
     }
 }
 
+.gr-3 {
+    width: 24%;
+}
+
 .gr-4 {
+    width: 32%;
+
     .product-card {
         .product-image {
             width: 100%;
-    
+
             img {
                 margin: auto;
             }
@@ -95,12 +100,16 @@
 }
 
 .gr-6 {
+    width: 49%;
+
     .product-image img {
         margin: auto;
     }
 }
 
 .gr-12 {
+    width: 100%;
+
     .product-card {
         display: flex;
         gap: 20px;
