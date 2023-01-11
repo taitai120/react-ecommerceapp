@@ -8,6 +8,7 @@ import Colors from "../../../components/Colors/Colors";
 import { TbGitCompare } from "react-icons/tb";
 import { AiOutlineHeart } from "react-icons/ai";
 import Container from "../../../components/Container/Container";
+import { Link } from "react-router-dom";
 
 const ProductDetailPage = () => {
     const [orderedProduct, setOrderedProduct] = useState(true);
@@ -50,28 +51,28 @@ const ProductDetailPage = () => {
                                 <img
                                     src="../images/watch.jpg"
                                     className="img-fluid"
-                                    alt=""
+                                    alt="product"
                                 />
                             </div>
                             <div>
                                 <img
                                     src="../images/watch.jpg"
                                     className="img-fluid"
-                                    alt=""
+                                    alt="product"
                                 />
                             </div>
                             <div>
                                 <img
                                     src="../images/watch.jpg"
                                     className="img-fluid"
-                                    alt=""
+                                    alt="product"
                                 />
                             </div>
                             <div>
                                 <img
                                     src="../images/watch.jpg"
                                     className="img-fluid"
-                                    alt=""
+                                    alt="product"
                                 />
                             </div>
                         </div>
@@ -176,16 +177,16 @@ const ProductDetailPage = () => {
                                 </div>
                                 <div className="d-flex align-items-center gap-15">
                                     <div>
-                                        <a href="">
+                                        <Link to="/">
                                             <TbGitCompare className="fs-5 me-2" />
                                             Add to Compare
-                                        </a>
+                                        </Link>
                                     </div>
                                     <div>
-                                        <a href="">
+                                        <Link to="/">
                                             <AiOutlineHeart className="fs-5 me-2" />
                                             Add to Wishlist
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                                 <div className="d-flex gap-10 flex-column my-2">
