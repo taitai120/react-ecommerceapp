@@ -40,7 +40,7 @@ function App() {
                             element={<ResetPasswordPage />}
                         />
                         <Route path="about" element={<AboutPage />} />
-                        <Route path="store" element={<OurStorePage />} />
+                        <Route path="products" element={<OurStorePage />} />
                         <Route
                             path="products/:id"
                             element={<ProductDetailPage />}

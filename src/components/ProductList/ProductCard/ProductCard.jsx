@@ -29,11 +29,17 @@ const ProductCard = ({
     return (
         <div
             className={`${
-                location.pathname === "/store" ? `gr-${grid}` : "col-3"
+                location.pathname === "/products" ? `gr-${grid}` : "col-3"
             }`}
         >
             <Link
-                to={`/products/${id}`}
+                to={`${
+                    location.pathname === "/"
+                        ? "/products/:id"
+                        : location.pathname === "/product/:id"
+                        ? "/product/1"
+                        : ":id"
+                }`}
                 className="product-card position-relative randomProduct"
             >
                 {!isRandom && (
